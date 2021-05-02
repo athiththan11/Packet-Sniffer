@@ -1,6 +1,6 @@
 # Packet Sniffer
 
-A TCP / UDP Packet Sniffer Tool implemented with [Pcap4j](https://github.com/kaitoy/pcap4j).
+A TCP/UDP Packet Sniffer Tool implemented using [Pcap4J](https://github.com/kaitoy/pcap4j).
 
 [:construction: Dev-in-progress]
 
@@ -20,6 +20,8 @@ mvn clean package
 ```
 
 ### Run
+
+> Required `libcap` or `winpcap` (for Windows environment) libraries to capture packets. Please follow [Pcap4J Docs](https://www.pcap4j.org/) to install the native libraries in your environment prior to executing the JAR
 
 ```sh
 java -jar target/packet-sniffer.jar
